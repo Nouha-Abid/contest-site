@@ -1,0 +1,103 @@
+.nav h1{
+    font-family: 'Rampart One', cursive;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 40px 0px;
+    background-color: rgb(252, 255, 220);
+}
+.fb {
+    text-align: center;
+    color: royalblue;
+    padding: auto;
+    margin: 25px;
+    border: blue solid 2px;
+    border-radius: 5px;
+    margin-left: auto;
+}
+.insta {
+    text-align: center;
+    color: rgb(220, 65, 225);
+    padding: auto;
+    margin: 25px;
+    border: rgb(205, 43, 211) solid 2px;
+    border-radius: 5px;
+  
+}
+.linkedin {
+    text-align: center;
+    color: rgb(65, 188, 225);
+    padding: auto;
+    margin: 25px;
+    border: rgb(0, 217, 255) solid 2px;
+    border-radius: 5px;
+}
+.main {
+    display: flex;
+    padding: 50px;
+    margin: 40px;
+    border-radius: 15px;
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    ;
+    filter: drop-shadow(0 0 0.75rem rgb(70, 68, 69));
+}
+.img {
+    filter: drop-shadow(30px 10px 4px #dd44c4);
+    width: 50%;
+}
+.text {
+    width: 50%;
+}
+.text h1 {
+    text-align: center;
+}
+.sub {
+    padding: 30px;
+    margin: 10px 600px 100px 600px;
+    border-radius: 15px;
+    background-color: #f5f3f3;
+    border: #dddcdc solid 1px;
+}
+h1 {
+    text-align: center;
+}
+#email ,#first_name ,#pwd{
+    border: #dddcdc solid 1px;
+    border-radius: 5px;
+    height: 45px;
+    width: 550px;
+}
+.email ,.first_name,.pwd{
+    font-size: 25px;
+}
+.gender,.interest{
+    font-size: 18px;
+}
+#gen, #int{
+    font-size: 25px;
+}
+.button {
+    display: flex;
+
+   
+}
+.join,.reset {
+    height: 20px;
+    width: 250px;
+    border: none;
+}
+.join {
+
+    color:green;
+}
+.reset {
+    
+    color: rgb(107, 23, 23);
+}
+p {
+    padding: 30px 200px 50px 200px;
+    font-size: 20px;
+ 
+}
